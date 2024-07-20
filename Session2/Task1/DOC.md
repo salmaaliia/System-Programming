@@ -25,9 +25,10 @@
 
  **Use the following command to view the symbol table of `a.o`:**
  ```bash
-  readelf -s a.o
+    readelf -s a.o
+
 **Output**
-```less
+```sql
 File: a.o
 
 Symbol table '.symtab' contains 9 entries:
@@ -48,7 +49,7 @@ Symbol table '.symtab' contains 9 entries:
  ```bash
   readelf -s b.o
 **Output**
-```less
+```sql
 File: b.o
 
 Symbol table '.symtab' contains 11 entries:
